@@ -1,20 +1,19 @@
-# Django / Python
-*.py linguist-language=Python
+# GitHub Linguist configuration
 
-# Django templates
-*.html linguist-language=HTML
+# Django/Python
+*.py linguist-language=Python
 
 # JavaScript
 *.js linguist-language=JavaScript
 *.jsx linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
 
-# CSS
+# Web
+*.html linguist-language=HTML
 *.css linguist-language=CSS
 
-# Ignore generated/static files from language statistics
-static/* linguist-vendored
-staticfiles/* linguist-vendored
-
-# Ignore generated/build files
+# Don't count generated/static assets
+staticfiles/** linguist-vendored
 *.min.js linguist-vendored
 *.min.css linguist-vendored
