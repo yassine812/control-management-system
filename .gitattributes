@@ -1,0 +1,20 @@
+# Django / Python
+*.py linguist-language=Python
+
+# Django templates
+*.html linguist-language=HTML
+
+# JavaScript
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+
+# CSS
+*.css linguist-language=CSS
+
+# Ignore generated/static files from language statistics
+static/* linguist-vendored
+staticfiles/* linguist-vendored
+
+# Ignore generated/build files
+*.min.js linguist-vendored
+*.min.css linguist-vendored
